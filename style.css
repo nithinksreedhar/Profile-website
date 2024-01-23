@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+img{
+   width: 100%;
+   display: block;
+}
+ #about{
+    padding: 120px;
+ }
+ #about h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(0, 255, 200);
+    margin-bottom: 60px;
+ }
+
+ #about h2{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 32px;
+   color: rgb(4, 4, 4);
+   margin-bottom: 60px;
+}
+
+#about p{
+   text-align:justify;
+   font-size: 24px;
+   color: rgb(84, 83, 84);
+   margin-bottom: 60px;
+}
+ #about div.container{
+    display: flex;
+    justify-content: space-between;
+ }
+ #about div.container div.left-container{
+    width: 38%;
+ }
+ #about div.container div.left-container div.image-container{
+   width: 80%;
+   border-radius: 50px;
+   overflow: hidden;
+ }
+ #about div.container div.right-container{
+    width: 58%;
+ }
+ #about div.container div.right-container div.list-container{
+   display: flex;
+ }
+ #about div.container div.right-container div.list-container ul {
+   width: 48%;
+ }
+ #about div.container div.right-container div.list-container ul li{
+  margin-bottom: 20px;
+ }
+ #about div.container div.right-container button{
+   color: rgb(23, 115, 15);
+   padding: 30px;
+   border-radius: 20px;
+  }
